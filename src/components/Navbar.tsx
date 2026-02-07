@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router"
 
 const Navbar = () => {
   return (
-    <nav className="bg-yellow-300 border-gray-200 dark:bg-gray-300 dark:border-gray-700">
+    <nav className="bg-yellow-300 border-gray-200 dark:bg-yellow-300 dark:border-gray-700">
       <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
